@@ -47,13 +47,11 @@ HackerRank  - https://www.hackerrank.com/profile/ppurigoswami2002
 
 
 ### 📸 Screenshots
-![image](https://github.com/user-attachments/assets/97e55014-ab88-49de-980c-98dd4309daab)
+![image](https://github.com/user-attachments/assets/a5ba6080-d5f9-417b-b242-f6b798fdf8de)
 
-![image](https://github.com/user-attachments/assets/23cd8deb-83d1-4db8-a3db-afe50520f9e2)
+![image](https://github.com/user-attachments/assets/5a2d975b-8de4-4fb6-ae2c-e150e95080d4)
 
-![image](https://github.com/user-attachments/assets/cc716b05-58de-4406-8cb0-aef5d5355c07)
-
-![image](https://github.com/user-attachments/assets/cc611b8b-99c4-4c42-919e-eee2c17da69b)
+![image](https://github.com/user-attachments/assets/600bc6f2-36c6-4c5d-8897-d7f979ca1902)
 
 
 ### 🛠️ Setup Instructions
