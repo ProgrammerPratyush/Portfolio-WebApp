@@ -1,11 +1,11 @@
-import * as React from 'react';
+// import * as React from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@radix-ui/react-icons';
-import { DayPicker } from 'react-day-picker';
+import { DayPicker, DayPickerProps } from 'react-day-picker';
 
 import { cn } from '@/lib/utils';
 import { buttonVariants } from '@/components/ui/button';
 
-export type CalendarProps = React.ComponentProps<typeof DayPicker>;
+export type CalendarProps = DayPickerProps;
 
 function Calendar({
   className,
@@ -58,10 +58,23 @@ function Calendar({
         ...classNames,
       }}
       components={{
-        IconLeft: ({ ...props }) => <ChevronLeftIcon className="h-4 w-4" />,
-        IconRight: ({ ...props }) => <ChevronRightIcon className="h-4 w-4" />,
+        // Use custom navigation button components
+        Button: (props) => (
+          <button
+            {...props}
+            className={cn(
+              buttonVariants({ variant: 'outline' }),
+              'h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100'
+            )}
+          >
+            {props.dir === 'prev' ? (
+              <ChevronLeftIcon className="h-4 w-4" />
+            ) : (
+              <ChevronRightIcon className="h-4 w-4" />
+            )}
+          </button>
+        ),
       }}
-      {...props}
     />
   );
 }
