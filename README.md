@@ -1,7 +1,7 @@
 # 🌟 My Portfolio WebApp
 🚀 Welcome to my personal portfolio website! This site is a showcase of my projects, skills, and professional journey. It’s a one-stop hub where you can explore my top projects, download my resume, and connect with me on various platforms.
 
-🌐 Live Demo
+🌐 Live Demo - https://pratyush-puri-web-portfolio.netlify.app/
 
 
 ## 🛠️ Tech Stack
